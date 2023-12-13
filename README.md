@@ -23,20 +23,35 @@ For training the convolutional neural networks (CNNs), we used the training and 
 Three different evaluation measures were used to analyse the final result. This avoids any manipulation by the applied augmentation/upsampling techniques. 
 
 # Getting started
+The augmented data can be generated using the Preprocessing.py script in the src folder. The training routine is defined by the Training.py script in the src folder. The weights of the resulting DenseNet201 is saved in the result folder. In order to use 
 
 
 ## Requirements
+The python scripts were tested with following packages and versions: 
+
+   * torch 
+   * torchvision
+   * PIL
+   * imblearn
+   * sklearn
+   * torch.utils.data
+   * pandas
+   * numpy
 
 
 # Publications
+Please cite following publication if you use the results:
 
-# Notes
 
 # Authors
+   * Dmitry Degtyar, main contributor and analyst
+   * Jan Benedikt Ruhland, supervisor
+   * Prof. Dr. Dominik Heider, principal inversitgator
 
 
 # License
+MIT license (see license file). 
 
 
 # Acknowledgments
-We want to thank the German state Hessen for the financial support of the project. 
+We want to thank the German state Hessen for the financial support of the project. Furthermore, the  Marburger Rechen-Cluster 3 (MaRC3) for providing the required computational ressources. 
