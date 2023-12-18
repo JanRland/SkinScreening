@@ -44,9 +44,9 @@ Please cite following publication if you use the results:
 
 
 # Authors
-   * Dmitry Degtyar, main contributor and analyst
-   * Jan Benedikt Ruhland, supervisor
-   * Prof. Dr. Dominik Heider, principal inversitgator
+   * Dmitry Degtyar, dmitry.degtyar@yahoo.com, main contributor and analyst
+   * Jan Benedikt Ruhland, jan.ruhland@hhu.de, supervisor
+   * Prof. Dr. Dominik Heider, dominik.heider@hhu.de, principal inversitgator
 
 
 # License
