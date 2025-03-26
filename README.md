@@ -20,23 +20,22 @@ For training the convolutional neural networks (CNNs), we used the training and 
 | AlexNet | 0.723 | 0.724 | 0.549 |
 
 
-Three different evaluation measures were used to analyse the final result. This avoids any manipulation by the applied augmentation/upsampling techniques. 
+Three different evaluation metrices were used to analyse the final result. This avoids any manipulation by the applied augmentation/upsampling techniques. 
 
 # Getting started
-The augmented data can be generated using the Preprocessing.py script in the src folder. The training routine is defined by the Training.py script in the src folder. The weights of the resulting DenseNet201 is saved in the result folder. In order to use 
+The augmented data can be generated using the Preprocessing.py script in the src folder. The training routine is defined by the Training.py script in the src folder. The weights of the resulting DenseNet169 is saved in the result folder. In order to use 
 
 
 ## Requirements
 The python scripts were tested with following packages and versions: 
 
-   * torch 
-   * torchvision
-   * PIL
-   * imblearn
-   * sklearn
-   * torch.utils.data
-   * pandas
-   * numpy
+   * torch 2.1.0
+   * torchvision 0.16.0
+   * PIL 9.4.0
+   * imblearn 0.11.0
+   * sklearn 1.2.2
+   * pandas 2.0.3
+   * numpy 1.26.0
 
 
 # Publications
